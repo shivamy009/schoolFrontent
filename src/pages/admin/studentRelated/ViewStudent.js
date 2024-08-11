@@ -91,6 +91,9 @@ const ViewStudent = () => {
         ? { name, rollNum }
         : { name, rollNum, password }
 
+    console.log(fields)
+        console.log(setPassword)
+
     useEffect(() => {
         if (userDetails) {
             setName(userDetails.name || '');
